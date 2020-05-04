@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:id="@+id/svSignup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:transitionName="llMain"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:text="Create"
+                    android:textSize="80dp"
+                    android:transitionName="tvMain"
+                    android:typeface="sans" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="19dp"
+                    android:transitionName="dot"
+                    android:src="@drawable/bg_circle" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Name"
+                android:textColor="#8C8C8C"
+                android:textSize="17sp"
+                android:transitionName="tvMobileNumber" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="John doe"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textColor="#80000000"
+                android:textColorHint="#80000000"
+                android:textSize="16sp"
+                android:transitionName="etMobileNumber" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="30dp"
+                android:text="Email id"
+                android:textColor="#8C8C8C"
+                android:textSize="17sp"
+                android:transitionName="tvEmailId" />
+
+            <EditText
+                android:id="@+id/etEmailSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="vermaxxxx@gmail.com"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="#80000000"
+                android:textColorHint="#80000000"
+                android:textSize="16sp"
+                android:transitionName="etEmailId" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="30dp"
+                android:text="Password"
+                android:textColor="#8C8C8C"
+                android:textSize="17sp"
+                android:transitionName="tvPassword" />
+
+            <EditText
+                android:id="@+id/etPasswordSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="⬤⬤⬤⬤⬤⬤"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#80000000"
+                android:textColorHint="#80000000"
+                android:textSize="16sp"
+                android:transitionName="etPassword" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="30dp"
+                android:text="Confirm password"
+                android:textColor="#8C8C8C"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/etConfirmPasswordSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="⬤⬤⬤⬤⬤⬤"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#80000000"
+                android:textColorHint="#80000000"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="30dp"
+                android:text="Referral Code"
+                android:textColor="#8C8C8C"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/etRefferalCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="ABZXNA ( Optional )"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="#80000000"
+                android:textColorHint="#80000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg_buttons"
+                android:text="S i g n  U p"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:transitionName="btnSumbit" />
+
+            <TextView
+                android:id="@+id/tvAlreadyUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Already a user?Signin"
+                android:textSize="17sp"
+                android:transitionName="tvSigninSignup" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
